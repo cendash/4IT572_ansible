@@ -11,7 +11,7 @@
         key_name: devops
         vpc_subnet_id: subnet-05247750f1887b940
         count: 1
-        assing_public_ip: yes
+        assign_public_ip: yes
         wait: yes
         aws_access_key: "{{ access_key }}"
         aws_secret_key: "{{ secret_key }}"
