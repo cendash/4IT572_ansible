@@ -41,7 +41,7 @@
           - docker
           - git
         state: latest
-        update_cached: yes
+        update_cache: yes
       become: yes
     - service: 
         name: docker
