@@ -31,7 +31,7 @@
       loop: "{{ ec2.instances }}"
 
 - name: Configure EC2
-  host: launched
+  hosts: launched
   connection: ssh
 
   tasks:
